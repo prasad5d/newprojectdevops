@@ -3,9 +3,9 @@ name: CI/CD Pipeline
 # Triggers: runs on every push and pull request to main
 on:
   push:
-    branches: [new]
+    branches: [main]
   pull_request:
-    branches: [new]
+    branches: [main]
 
 env:
   IMAGE_NAME: devops-task-app
